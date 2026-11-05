@@ -26,36 +26,40 @@ annual_targets=table(['合作类型','全年名额','品牌分配','主要任务
 annual_targets=annual_targets.replace('<table>','<table class="annual-targets">',1)
 section(2,'2027年规划', '<p>2027要让每次合作更有用：拿到能投广告的素材，把产品讲清楚，也让更多目标用户记住品牌。</p><h3>重点改这六件事</h3>'+table(['规划方向','具体安排'],[
  ['三品牌定位','OutfitR围绕户外生活；Young讲清产品选法；Young Pro突出品质、高端体验与产品科普'],
- ['三类脚本','生活方式、产品解释、真实测试；按网红擅长的内容安排，三个品牌各有侧重'],
+ ['三类脚本','三个品牌都拍生活方式、产品解释、真实测试；品牌故事融入其中，按品牌定位和网红擅长的拍法安排'],
  ['三类网红分工','置换持续提供日常广告素材；腰部解答购买疑问；头部与品牌共同策划、发布主题视频。全年置换222个、腰部12个、头部6个'],
  ['平台安排','YouTube可拍有氛围感的出行影片、人物与品牌故事，也可做深入讲解和评测；Instagram和TikTok可用短片展示场景、功能与品牌故事。按内容和网红擅长的拍法选择平台'],
  ['市场安排','美国为主，加拿大和澳洲少量试做'],
  ['跟进与调整','每月跟进，每季决定是否继续投入；重点看素材返回数量、质量、实际广告采用、可追踪订单，再辅助看曝光与互动；按实际表现调整预算和续约名单']])+ '<p><b>全年要做到：</b>日常有素材可用，用户看完更容易选对产品，品牌合作让更多目标用户记住品牌。</p><h3>全年合作、任务与预算</h3>'+annual_targets+'<p class="caption">三个品牌作为独立品牌平均分配合作名额，各有内容侧重。全年每品牌80个＝置换74个＋腰部4个＋头部2个。每月合计20个，按7、7、6个轮换，全年各80个；品牌内容定位保持各自侧重。</p>')
 section(3,'三个品牌，找谁、拍什么',table(['品牌','合作名额','找什么网红','内容方向'],[
- ['<b>OutfitR</b>','全年80个<br>每月6—7个','骑行、露营、自驾、家庭或伴侣出游作者','置换：装车、营地、骑行场景<br>腰部：结合出行讲功能<br>头部：旅程与人物故事'],
- ['<b>Young</b>','全年80个<br>每月6—7个','电动自行车评测、家庭多车和电动三轮车真实用户','置换：适配、装卸和收纳<br>腰部：型号选择与真实测试<br>头部：围绕用户的出行需求拍完整故事'],
- ['<b>Young Pro</b>','全年80个<br>每月6—7个','双车出行、专业装备评测和注重使用体验的作者','置换：细节与操作<br>腰部：深入评测与体验比较<br>头部：用完整出行故事体现品质和配置价值'],
+ ['<b>OutfitR</b>','全年80个<br>每月6—7个','骑行、露营、自驾、家庭或伴侣出游作者','置换：装车、营地、骑行场景<br>腰部：户外出游故事，结合行程讲功能<br>头部：户外旅程与人物品牌故事'],
+ ['<b>Young</b>','全年80个<br>每月6—7个','电动自行车评测、家庭多车和电动三轮车真实用户','置换：适配、装卸和收纳<br>腰部：选型、实测或完整出游故事<br>头部：围绕用户需求策划品牌故事，突出产品真实使用'],
+ ['<b>Young Pro</b>','全年80个<br>每月6—7个','双车出行、专业装备评测和注重使用体验的作者','置换：细节与操作<br>腰部：评测、体验比较或品质出行故事<br>头部：用旅程与人物品牌故事体现品质和配置价值'],
  ['<b>选人标准</b>','适用范围','筛选要求','补充说明'],
  ['腰部','三个品牌','粉丝10万—25万','三个品牌合计每月1个，轮流安排；每品牌全年4个'],['头部','三个品牌','粉丝25万以上','每品牌全年2个，提前联系并配合发布档期'],
  ['共同要求','所有合作','最近同类视频的通常播放量、目标国家观众、产品适配、拍摄能力和报价','能够拍出自然可信的出行场景、人物互动或完整测试'],
  ['合作产品','所有合作','根据当月广告需求及品牌方安排确定','合作前核实车型与产品适配']]))
 import json
 selected_videos=json.loads((p/'site_selected_videos.json').read_text())['videos']
-reference_html=''
-brand_titles={'OutfitR':'户外旅程、家庭出游与露营空间','Young':'重车操作、车型适配与专门选型','Young Pro':'品牌质感、配置细节与便利性证明'}
+reference_html='<p>三个品牌都拍生活方式、产品解释和真实测试，按品牌需要各有侧重。品牌故事可以贯穿这三类内容：OutfitR突出户外生活，Young突出产品怎样解决实际问题，Young Pro突出品质与配置体验。</p>'+table(['内容类型','OutfitR侧重','Young侧重','Young Pro侧重'],[
+ ['生活方式','户外、露营、房车或自驾旅行与人物互动','用户带车出行的完整故事，讲清使用需求和实际感受','有质感的旅程与人物故事，结合细节和操作体验'],
+ ['产品解释','把装卸、取物等功能自然放进户外行程','问题→操作→结果；帮助选型、解决装卸与适配疑问','每项配置对应看得见的操作、便利性和体验差异'],
+ ['真实测试','围绕户外出行拍安装、装载和沿途使用','多车型实际装载、不同道路行驶与日常操作验证','用连续操作、细节对照和使用后检查说明配置价值']]).replace('<table>','<table class="content-matrix">',1)
+reference_html+='<p class="caption">置换合作可拍日常场景、产品解释与基础实测；腰部合作围绕具体问题共创脚本，也可拍完整出游故事；头部合作重点策划品牌主题与人物故事，并结合产品实拍。YouTube同样适合有氛围感的品牌影片，按网红能力和主题选择平台。</p>'
 reference_groups=[]
-for brand in ['OutfitR','Young','Young Pro']:
+for content_type in ['生活方式','产品解释','真实测试']:
  rows=[]
  for video in selected_videos:
-  if video['brand']!=brand:continue
+  if video['content_type']!=content_type:continue
   clips=[]
   for clip in video['clips']:
    url=video['url']+('&t='+str(clip['start']) if 'start' in clip and 'youtube.com/watch?' in video['url'] else '')
    clips.append('<a target="_blank" rel="noopener noreferrer" href="'+escape(url,quote=True)+'">'+escape(clip['time'])+' '+escape(clip['description'])+'</a>')
   original='<a class="video-title" target="_blank" rel="noopener noreferrer" href="'+escape(video['url'],quote=True)+'">'+escape(video['competitor']+'｜'+video['title'])+'</a><div class="video-duration">'+escape(video['duration'])+'</div><div class="video-summary">'+escape(video['original_content'])+'</div><div class="video-clips">'+'<br>'.join(clips)+'</div>'
-  rows.append([escape(video['category']),escape(video['tier']),original,escape(video['adaptation'])])
- reference_groups.append((brand,rows))
- reference_html+='<h3>'+brand+'｜'+brand_titles[brand]+'</h3>'+table(['内容类别','合作类型','原视频内容与参考片段','本品牌怎么拍'],rows)
+  adaptation=''.join('<div class="brand-adaptation"><b>'+escape(brand)+'：</b>'+escape(text)+'</div>' for brand,text in video['brand_adaptations'].items())
+  rows.append([escape(video['category']),escape(video['tier']),original,adaptation])
+ reference_groups.append((content_type,rows))
+ reference_html+='<h3>'+content_type+'</h3>'+table(['参考主题','建议合作类型','原视频内容与参考片段','适用品牌与拍法'],rows).replace('<table>','<table class="reference-table">',1)
 section(4,'内容参考与合作交付',reference_html+'<h3>每次合作交付</h3>'+table(['合作类别','主视频','其他视频素材','独立照片','主要任务'],[
  ['置换','1条','可剪辑原片','5张','日常场景、产品解释、真实使用'],
  ['腰部','1条定制主片','另外约定','8张','共创脚本，讲清购买疑问和操作体验'],
@@ -140,6 +144,12 @@ table:not(.annual-targets){table-layout:auto}td:first-child{min-width:max-conten
 #s2>.scroll:not(:has(.annual-targets)) td:first-child{width:180px;min-width:180px}
 #s1 td:first-child,#s5 td:first-child{min-width:155px}
 @media(max-width:700px){#s2>.scroll:not(:has(.annual-targets)) td:first-child{min-width:150px;width:150px}}
+'''
+css+=''''
+#s4 table.content-matrix{table-layout:fixed;min-width:1100px}#s4 table.content-matrix th:first-child{width:13%}#s4 table.content-matrix th:nth-child(n+2){width:29%}
+#s4 table.reference-table{table-layout:fixed;min-width:1180px}#s4 table.reference-table th:nth-child(1){width:13%}#s4 table.reference-table th:nth-child(2){width:13%}#s4 table.reference-table th:nth-child(3){width:35%}#s4 table.reference-table th:nth-child(4){width:39%}
+#s4 .brand-adaptation{margin:0 0 14px;line-height:1.8}#s4 .brand-adaptation:last-child{margin-bottom:0}#s4 .brand-adaptation b{white-space:nowrap}
+@media print{#s4 table.content-matrix,#s4 table.reference-table{min-width:0}#s4 table.reference-table td,#s4 table.reference-table th{padding:8px}#s4 .brand-adaptation{margin-bottom:9px}}
 '''
 nav=''.join(f'<a href="#s{i}">{name}</a>' for i,name in enumerate(['今年成果','年度目标','品牌方向','参考与交付','内容评价','预算','逐月安排'],1))
 html='<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Forcome｜2026成果与2027年度网红规划</title><style>'+css+'</style></head><body><header><small>FORCOME · 2027 ANNUAL PLAN</small><h1>2026成果与2027年度网红规划</h1><span class="status">全年240个合作名额 · 腰部12个 · 头部6个 · 合作预算78,000美元</span></header><nav>'+nav+'<button onclick="window.print()">打印 / 保存PDF</button></nav><main>'+''.join(parts)+'</main></body></html>'

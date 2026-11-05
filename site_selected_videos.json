@@ -1,11 +1,11 @@
 {
   "source_site": "https://becca-creator-ops.lililaliang.chatgpt.site/#competitors",
-  "read_method": "用户清理后的Chrome竞品页面；通过界面翻阅10页118条视频条目，对9条候选分别展开镜头与脚本。未声称重新播放全部原视频。",
+  "read_method": "原有参考保留；2026-11-05经Chrome竞品库重新检索并展开多车型与多路况案例，打开原片核对。品牌分类改为三类内容，各品牌可交叉参考，每条视频仅展示一次。",
   "selection_count": 9,
   "videos": [
     {
       "brand": "OutfitR",
-      "category": "生活方式｜好友旅行",
+      "category": "好友旅行",
       "tier": "头部",
       "competitor": "Yakima",
       "title": "Border Lines：好友重返BC旅行",
@@ -26,11 +26,22 @@
         }
       ],
       "adaptation": "找有真实共同经历的骑行搭档，拍“约好再去骑一次”；保留装车、车内交流、目的地骑行与营地生活。产品融入旅程，突出人与人的出游关系。",
-      "library_page": 1
+      "library_page": 1,
+      "content_type": "生活方式",
+      "brand_adaptations": {
+        "OutfitR": "找有真实共同经历的骑行搭档，拍“约好再去骑一次”；保留装车、车内交流、目的地骑行与营地生活。产品融入旅程，突出人与人的出游关系。",
+        "Young": "沿用好友出游的故事结构，在准备与出发中讲清为何选这款、怎样装车及到达后的使用感受。",
+        "Young Pro": "借鉴人物关系与旅程节奏，在关键操作中拍出细节、便利性和长途出行体验。"
+      },
+      "applicable_brands": [
+        "OutfitR",
+        "Young",
+        "Young Pro"
+      ]
     },
     {
       "brand": "OutfitR",
-      "category": "生活方式｜亲子短片",
+      "category": "亲子出游",
       "tier": "腰部、头部",
       "competitor": "Thule",
       "title": "The Walton Adventure：带孩子去Zion",
@@ -49,11 +60,22 @@
         }
       ],
       "adaptation": "找真实亲子骑行家庭，以“骑车去买冰淇淋”等小目标串起准备、装车和孩子互动；重点拍家庭出游的轻松感。",
-      "library_page": 10
+      "library_page": 10,
+      "content_type": "生活方式",
+      "brand_adaptations": {
+        "OutfitR": "找真实亲子骑行家庭，以“骑车去买冰淇淋”等小目标串起准备、装车和孩子互动；重点拍家庭出游的轻松感。",
+        "Young": "借鉴家庭小目标串联，拍清不同家庭成员的车怎样装、怎样卸，回答家庭运输的具体问题。",
+        "Young Pro": "借鉴自然的亲子互动与完整出游过程，用操作细节表现家庭出行中的使用体验。"
+      },
+      "applicable_brands": [
+        "OutfitR",
+        "Young",
+        "Young Pro"
+      ]
     },
     {
-      "brand": "OutfitR",
-      "category": "产品解释｜露营空间",
+      "brand": "Young",
+      "category": "取物痛点",
       "tier": "置换、腰部",
       "competitor": "VelociRAX",
       "title": "皮卡货厢太满：给尾门留出取物空间",
@@ -71,12 +93,21 @@
           "description": "部件连接到开尾门取物"
         }
       ],
-      "adaptation": "找有皮卡或露营装备的作者，拍“带车又能拿装备”的前后对照。按本品已确认的适配与功能演示空间关系，只展示本品实际支持的功能；不能因为竞品使用延长件后能打开尾门，就宣称本品也能留出同样的尾门开启空间。",
-      "library_page": 1
+      "adaptation": "先拍带车出行时行李不好拿的具体问题，再演示本品实际支持的操作，最后拍取出装备的结果。只使用已确认适配的车辆和产品组合。",
+      "library_page": 1,
+      "content_type": "产品解释",
+      "brand_adaptations": {
+        "Young": "先拍带车出行时行李不好拿的具体问题，再演示本品实际支持的操作，最后拍取出装备的结果。只使用已确认适配的车辆和产品组合。",
+        "Young Pro": "用相同的问题—操作—结果顺序，具体展示已确认配置带来的取物便利。"
+      },
+      "applicable_brands": [
+        "Young",
+        "Young Pro"
+      ]
     },
     {
       "brand": "Young",
-      "category": "产品解释｜重车装载",
+      "category": "重车装载",
       "tier": "置换、腰部",
       "competitor": "Yakima",
       "title": "OnRamp LX：坡道推车与固定教程",
@@ -95,64 +126,100 @@
         }
       ],
       "adaptation": "找真实重型电动自行车用户，连续拍坡道上车及固定步骤；全景交代动作，近景拍清固定点，回答“重车如何装上去”。",
-      "library_page": 10
+      "library_page": 10,
+      "content_type": "产品解释",
+      "brand_adaptations": {
+        "Young": "找真实重型电动自行车用户，连续拍坡道上车及固定步骤；全景交代动作，近景拍清固定点，回答“重车如何装上去”。",
+        "Young Pro": "在完整上车动作中，补拍坡道操作、固定结构和使用体验，解释配置价值。"
+      },
+      "applicable_brands": [
+        "Young",
+        "Young Pro"
+      ]
     },
     {
       "brand": "Young",
-      "category": "真实测试｜多车型适配",
+      "content_type": "真实测试",
+      "category": "多车型适配",
       "tier": "腰部",
-      "competitor": "Hollywood Racks",
-      "title": "CrossTrack：不同车型逐一试装评测",
-      "original_title": "The Best Hitch Bike Rack for Cyclists? CrossTrack by Hollywood Racks.",
-      "url": "https://www.youtube.com/watch?v=v_7FoNSJKrs",
-      "duration": "5分33秒",
-      "original_content": "同一位博主在车道和停车区换不同车型试装，展示接口、锁具、轮臂及倾斜操作。",
+      "competitor": "QuikrStuff",
+      "title": "Mach2：公路车、儿童车与电助力车逐一上架",
+      "original_title": "Fastest, no-tools bike rack by inventor of the original Quik Rack",
+      "url": "https://www.youtube.com/watch?v=k5FVVPlipd8",
+      "duration": "8分10秒",
+      "original_content": "在同一辆白色汽车后，先装公路车，再演示其他车的装载和调整；后段明确出现儿童车与沿坡道推上架的电助力车，能直接对照车型差异。",
       "clips": [
         {
-          "time": "2:07",
-          "start": 127,
-          "description": "比较轮胎与轮位"
+          "time": "4:14起",
+          "start": 254,
+          "description": "公路车上架；可见弯把与细胎"
         },
         {
-          "time": "4:05",
-          "start": 245,
-          "description": "手部操作轮臂"
+          "time": "6:22起",
+          "start": 382,
+          "description": "儿童车演示；与前面的成人车对照"
+        },
+        {
+          "time": "7:11起",
+          "start": 431,
+          "description": "沿坡道推电助力车上架"
         }
       ],
-      "adaptation": "找同时有通勤车和宽胎电动自行车的作者，分别实装；量出关键尺寸，展示换车型时哪些位置需要调节，讲清适合与不适合的情况。",
-      "library_page": 6
+      "adaptation": "找拥有两种以上已确认适配车型的作者，在同一机位逐一装车；标清车型与实测尺寸，拍出轮位、固定点和调节动作的变化，说明适合与不适合的情况。",
+      "library_lookup": "竞品库搜索“路”，第2页；已展开镜头与脚本并打开原片核对公路车及儿童车画面。",
+      "verification": "原片4:20可见白色弯把公路车；6:28可见儿童车及已装载的其他不同车型。其他时间点沿用竞品库索引。",
+      "brand_adaptations": {
+        "Young": "找拥有两种以上已确认适配车型的作者，在同一机位逐一装车；标清车型与实测尺寸，拍出轮位、固定点和调节动作的变化，说明适合与不适合的情况。",
+        "Young Pro": "在不同车型的实装对照中补拍固定结构与调节细节，说明配置差异怎样影响使用。",
+        "OutfitR": "用家庭或伙伴出游需要携带的不同自行车做装车对照，再接上实际户外行程。"
+      },
+      "applicable_brands": [
+        "Young",
+        "Young Pro",
+        "OutfitR"
+      ]
     },
     {
       "brand": "Young",
-      "category": "使用场景｜电动三轮车",
-      "tier": "腰部、头部",
-      "competitor": "Hollywood Racks",
-      "title": "Trike Rack：电动三轮车如何运输",
-      "original_title": "Hollywood Racks Trike Rack for E-Bikes and E-Trikes",
-      "url": "https://www.youtube.com/watch?v=7GLDqy28BYI",
-      "duration": "26秒",
-      "original_content": "皮卡同时载三轮车与自行车，高机位交代轮位关系，接固定带和锁的近景，再驶向公园卸车骑行。",
+      "content_type": "真实测试",
+      "category": "多路况行驶",
+      "tier": "置换、腰部",
+      "competitor": "Thule",
+      "title": "Epos：山地土路、林间道路与公路行驶",
+      "original_title": "Epos：不同路面运输信心",
+      "url": "https://www.facebook.com/ads/library/?id=1501942124466996",
+      "duration": "10秒",
+      "original_content": "以山地土路扬尘开场，切换林间道路的车辆跟拍、夕阳公路与后架近景；重点是载车行驶的不同路面场景。",
       "clips": [
         {
-          "time": "0:02",
-          "start": 2,
-          "description": "高机位展示轮位布局"
+          "time": "0:00—0:02",
+          "description": "山地土路俯拍，车辆载车行驶"
         },
         {
-          "time": "0:08",
-          "start": 8,
-          "description": "固定带与锁的细节"
+          "time": "0:02—0:06",
+          "description": "林间道路、公路行驶与后架近景"
         }
       ],
-      "adaptation": "找真实电动三轮车用户，以高机位展示本品实际支持的轮位和车数，再拍固定与目的地骑行；说明三轮车需要怎样的运输方案。",
-      "library_page": 5
+      "adaptation": "在本品允许且安全合法的路线拍不同道路上的载车行驶，保留同机位后架状态、途中与到达后的检查。路面场景与产品适用条件逐项确认；片中剪辑只用于参考拍法，不作为本品稳定性或安全测试结论。",
+      "library_lookup": "竞品库搜索“路”，第2页；已展开镜头与脚本并播放原广告。",
+      "verification": "原广告可播放；已核对0:01山地土路载车俯拍、0:04林间道路侧后方行驶及后段公路画面。",
+      "brand_adaptations": {
+        "Young": "在本品允许且安全合法的路线拍不同道路上的载车行驶，保留同机位后架状态、途中与到达后的检查。路面场景与产品适用条件逐项确认；片中剪辑只用于参考拍法，不作为本品稳定性或安全测试结论。",
+        "OutfitR": "把载车行驶镜头放进前往营地或骑行目的地的旅程，突出路途与户外环境。",
+        "Young Pro": "除道路远景外，增加固定点、操作和到达后的状态检查，表现实际使用体验。"
+      },
+      "applicable_brands": [
+        "Young",
+        "OutfitR",
+        "Young Pro"
+      ]
     },
     {
-      "brand": "Young Pro",
-      "category": "品牌故事｜双车品质出行",
+      "brand": "OutfitR",
+      "category": "房车野营",
       "tier": "头部",
       "competitor": "Küat",
-      "title": "Piston ION：双车旅行与营地体验",
+      "title": "Piston ION：房车野营、双车骑行与营地生活",
       "original_title": "The Piston® ION™ E-Bike Rack",
       "url": "https://www.youtube.com/watch?v=_hcCN_FOQq4",
       "duration": "1分15秒",
@@ -169,12 +236,23 @@
           "description": "操作、出发与营地休息"
         }
       ],
-      "adaptation": "找审美与装备讲解能力都好的双车作者，拍完整旅行主片；用车辆与双车全景、手部操作和精致细节表现配置体验。车辆场景按本品适用条件确定。",
-      "library_page": 2
+      "adaptation": "以房车或自驾旅行串起装车、沿途风景、抵达、骑行和营地休息；车架自然融入户外生活。车辆与房车场景按本品适用条件确认。",
+      "library_page": 2,
+      "content_type": "生活方式",
+      "brand_adaptations": {
+        "OutfitR": "以房车或自驾旅行串起装车、沿途风景、抵达、骑行和营地休息；车架自然融入户外生活。车辆与房车场景按本品适用条件确认。",
+        "Young": "同样拍完整出行故事，但重点交代为什么选这款、怎样装卸以及一路使用的真实体验。",
+        "Young Pro": "同样拍旅行与人物，在操作和细节中表现更高配置带来的便利与品质感。"
+      },
+      "applicable_brands": [
+        "OutfitR",
+        "Young",
+        "Young Pro"
+      ]
     },
     {
       "brand": "Young Pro",
-      "category": "产品解释｜配置细节",
+      "category": "配置细节",
       "tier": "腰部",
       "competitor": "1UP USA",
       "title": "Christian Peper：双车错位与接触部件",
@@ -193,11 +271,20 @@
         }
       ],
       "adaptation": "找有两辆实际使用车辆的技术型作者，重点拍固定结构、车辆间距与接触位置；每项配置都对应一个看得见的操作或体验，回答“更高配置带来什么”。",
-      "library_page": 10
+      "library_page": 10,
+      "content_type": "产品解释",
+      "brand_adaptations": {
+        "Young Pro": "找有两辆实际使用车辆的技术型作者，重点拍固定结构、车辆间距与接触位置；每项配置都对应一个看得见的操作或体验，回答“更高配置带来什么”。",
+        "Young": "借鉴不同尺寸双车的全景与固定点近景，讲清车间距、接触位置和适配要求。"
+      },
+      "applicable_brands": [
+        "Young Pro",
+        "Young"
+      ]
     },
     {
       "brand": "Young Pro",
-      "category": "真实测试｜安装便利性",
+      "category": "安装便利性",
       "tier": "置换、腰部",
       "competitor": "QuikrStuff",
       "title": "Mach2：固定机位计时安装",
@@ -218,7 +305,19 @@
         }
       ],
       "adaptation": "找愿意完整实测的装备作者，用固定机位展示本品安装和锁定检查；统一计时起止点，按真实结果标注用时，用实际操作证明是否省事。",
-      "library_page": 1
+      "library_page": 1,
+      "content_type": "真实测试",
+      "brand_adaptations": {
+        "Young Pro": "找愿意完整实测的装备作者，用固定机位展示本品安装和锁定检查；统一计时起止点，按真实结果标注用时，用实际操作证明是否省事。",
+        "Young": "沿用固定机位计时，拍出普通用户从搬出到安装完成的过程，解释日常操作是否省事。",
+        "OutfitR": "把安装作为户外出发前的一段准备，保留连续操作，再接上出发与目的地。"
+      },
+      "applicable_brands": [
+        "Young Pro",
+        "Young",
+        "OutfitR"
+      ]
     }
-  ]
+  ],
+  "grouping": "生活方式、产品解释、真实测试；品牌故事为三个品牌均可采用的叙事方式。"
 }
