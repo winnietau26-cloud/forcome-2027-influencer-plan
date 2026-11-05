@@ -1,0 +1,224 @@
+{
+  "source_site": "https://becca-creator-ops.lililaliang.chatgpt.site/#competitors",
+  "read_method": "用户清理后的Chrome竞品页面；通过界面翻阅10页118条视频条目，对9条候选分别展开镜头与脚本。未声称重新播放全部原视频。",
+  "selection_count": 9,
+  "videos": [
+    {
+      "brand": "OutfitR",
+      "category": "生活方式｜好友旅行",
+      "tier": "头部",
+      "competitor": "Yakima",
+      "title": "Border Lines：好友重返BC旅行",
+      "original_title": "Border Lines - North to B.C. Canada",
+      "url": "https://www.youtube.com/watch?v=BpSnrYk0R5k",
+      "duration": "5分33秒",
+      "original_content": "旧照片与电话邀约开场，两位童年好友重聚，沿途骑行、做饭、露营，带车车辆贯穿旅程。",
+      "clips": [
+        {
+          "time": "0:10—0:50",
+          "start": 10,
+          "description": "旧照、邀约与准备"
+        },
+        {
+          "time": "3:00—3:20",
+          "start": 180,
+          "description": "营地做饭与帐篷"
+        }
+      ],
+      "adaptation": "找有真实共同经历的骑行搭档，拍“约好再去骑一次”；保留装车、车内交流、目的地骑行与营地生活。产品融入旅程，突出人与人的出游关系。",
+      "library_page": 1
+    },
+    {
+      "brand": "OutfitR",
+      "category": "生活方式｜亲子短片",
+      "tier": "腰部、头部",
+      "competitor": "Thule",
+      "title": "The Walton Adventure：带孩子去Zion",
+      "original_title": "The Walton Adventure 从车库组好载车架与固定车轮开始，开车带孩子到 Zion",
+      "url": "https://www.instagram.com/reel/DcON-EOBZj1/",
+      "duration": "1分07秒",
+      "original_content": "从车库装车出发，家庭到Zion卸下电助力车及儿童拖车，骑行买冰淇淋，在遮阳布下休息。",
+      "clips": [
+        {
+          "time": "0:10—0:20",
+          "description": "抵达、卸车与准备"
+        },
+        {
+          "time": "0:25—0:45",
+          "description": "买冰淇淋与亲子骑行"
+        }
+      ],
+      "adaptation": "找真实亲子骑行家庭，以“骑车去买冰淇淋”等小目标串起准备、装车和孩子互动；重点拍家庭出游的轻松感。",
+      "library_page": 10
+    },
+    {
+      "brand": "OutfitR",
+      "category": "产品解释｜露营空间",
+      "tier": "置换、腰部",
+      "competitor": "VelociRAX",
+      "title": "皮卡货厢太满：给尾门留出取物空间",
+      "original_title": "皮卡货厢太满？用拖钩延长件留出尾门空间",
+      "url": "https://www.facebook.com/ads/library/?id=1511826916851625",
+      "duration": "23秒",
+      "original_content": "先拍自行车和箱子挤满货厢，再展示延长件连接、固定与紧固，最后打开尾门取装备。",
+      "clips": [
+        {
+          "time": "0:04—0:08",
+          "description": "装备拥挤的痛点"
+        },
+        {
+          "time": "0:10—0:20",
+          "description": "部件连接到开尾门取物"
+        }
+      ],
+      "adaptation": "找有皮卡或露营装备的作者，拍“带车又能拿装备”的前后对照。按本品已确认的适配与功能演示空间关系，只展示本品实际支持的功能；不能因为竞品使用延长件后能打开尾门，就宣称本品也能留出同样的尾门开启空间。",
+      "library_page": 1
+    },
+    {
+      "brand": "Young",
+      "category": "产品解释｜重车装载",
+      "tier": "置换、腰部",
+      "competitor": "Yakima",
+      "title": "OnRamp LX：坡道推车与固定教程",
+      "original_title": "Yakima 人员在小型皮卡后展开 OnRamp LX，拆下坡道、沿坡道推电助力车上架",
+      "url": "https://www.instagram.com/yakimaracks/reel/C6bf13QLtNu/",
+      "duration": "23秒",
+      "original_content": "在皮卡后展开平台和立柱，取出坡道，把电助力车推入轮槽，再固定车架与轮胎。",
+      "clips": [
+        {
+          "time": "0:08—0:14",
+          "description": "取坡道、推车入槽"
+        },
+        {
+          "time": "0:16—0:23",
+          "description": "夹持与轮胎固定"
+        }
+      ],
+      "adaptation": "找真实重型电动自行车用户，连续拍坡道上车及固定步骤；全景交代动作，近景拍清固定点，回答“重车如何装上去”。",
+      "library_page": 10
+    },
+    {
+      "brand": "Young",
+      "category": "真实测试｜多车型适配",
+      "tier": "腰部",
+      "competitor": "Hollywood Racks",
+      "title": "CrossTrack：不同车型逐一试装评测",
+      "original_title": "The Best Hitch Bike Rack for Cyclists? CrossTrack by Hollywood Racks.",
+      "url": "https://www.youtube.com/watch?v=v_7FoNSJKrs",
+      "duration": "5分33秒",
+      "original_content": "同一位博主在车道和停车区换不同车型试装，展示接口、锁具、轮臂及倾斜操作。",
+      "clips": [
+        {
+          "time": "2:07",
+          "start": 127,
+          "description": "比较轮胎与轮位"
+        },
+        {
+          "time": "4:05",
+          "start": 245,
+          "description": "手部操作轮臂"
+        }
+      ],
+      "adaptation": "找同时有通勤车和宽胎电动自行车的作者，分别实装；量出关键尺寸，展示换车型时哪些位置需要调节，讲清适合与不适合的情况。",
+      "library_page": 6
+    },
+    {
+      "brand": "Young",
+      "category": "使用场景｜电动三轮车",
+      "tier": "腰部、头部",
+      "competitor": "Hollywood Racks",
+      "title": "Trike Rack：电动三轮车如何运输",
+      "original_title": "Hollywood Racks Trike Rack for E-Bikes and E-Trikes",
+      "url": "https://www.youtube.com/watch?v=7GLDqy28BYI",
+      "duration": "26秒",
+      "original_content": "皮卡同时载三轮车与自行车，高机位交代轮位关系，接固定带和锁的近景，再驶向公园卸车骑行。",
+      "clips": [
+        {
+          "time": "0:02",
+          "start": 2,
+          "description": "高机位展示轮位布局"
+        },
+        {
+          "time": "0:08",
+          "start": 8,
+          "description": "固定带与锁的细节"
+        }
+      ],
+      "adaptation": "找真实电动三轮车用户，以高机位展示本品实际支持的轮位和车数，再拍固定与目的地骑行；说明三轮车需要怎样的运输方案。",
+      "library_page": 5
+    },
+    {
+      "brand": "Young Pro",
+      "category": "品牌故事｜双车品质出行",
+      "tier": "头部",
+      "competitor": "Küat",
+      "title": "Piston ION：双车旅行与营地体验",
+      "original_title": "The Piston® ION™ E-Bike Rack",
+      "url": "https://www.youtube.com/watch?v=_hcCN_FOQq4",
+      "duration": "1分15秒",
+      "original_content": "房车沿山路行驶，双电助力车随行；两位骑友操作车架、出发骑行，最后回到营地椅上休息。",
+      "clips": [
+        {
+          "time": "0:06",
+          "start": 6,
+          "description": "双车、车架与车辆的整体关系"
+        },
+        {
+          "time": "0:22—0:34",
+          "start": 22,
+          "description": "操作、出发与营地休息"
+        }
+      ],
+      "adaptation": "找审美与装备讲解能力都好的双车作者，拍完整旅行主片；用车辆与双车全景、手部操作和精致细节表现配置体验。车辆场景按本品适用条件确定。",
+      "library_page": 2
+    },
+    {
+      "brand": "Young Pro",
+      "category": "产品解释｜配置细节",
+      "tier": "腰部",
+      "competitor": "1UP USA",
+      "title": "Christian Peper：双车错位与接触部件",
+      "original_title": "Christian Peper 开箱安装1UP Heavy Duty Double，展示两车错位装载、轮臂和轮胎接触件",
+      "url": "https://www.instagram.com/1upusa/reel/DbEPkoOJ24I/",
+      "duration": "45秒",
+      "original_content": "从开箱安装进入两辆不同大小自行车的错位装载，再特写轮臂及轮胎接触件，最后展示完整双车状态。",
+      "clips": [
+        {
+          "time": "0:15—0:25",
+          "description": "不同大小双车装载"
+        },
+        {
+          "time": "0:30—0:40",
+          "description": "轮臂与轮胎接触件"
+        }
+      ],
+      "adaptation": "找有两辆实际使用车辆的技术型作者，重点拍固定结构、车辆间距与接触位置；每项配置都对应一个看得见的操作或体验，回答“更高配置带来什么”。",
+      "library_page": 10
+    },
+    {
+      "brand": "Young Pro",
+      "category": "真实测试｜安装便利性",
+      "tier": "置换、腰部",
+      "competitor": "QuikrStuff",
+      "title": "Mach2：固定机位计时安装",
+      "original_title": "Installing the QuikrStuff Mach2 Bike Rack in Under 30 Seconds",
+      "url": "https://www.youtube.com/watch?v=chmSDPDkaqQ",
+      "duration": "51秒",
+      "original_content": "从纸箱提起折叠架，搬到车尾插入接口并锁定，画面倒计时把便利性对应到可见动作。",
+      "clips": [
+        {
+          "time": "0:06—0:23",
+          "start": 6,
+          "description": "取架、搬运、插入与锁定"
+        },
+        {
+          "time": "0:35",
+          "start": 35,
+          "description": "完成后的行驶画面"
+        }
+      ],
+      "adaptation": "找愿意完整实测的装备作者，用固定机位展示本品安装和锁定检查；统一计时起止点，按真实结果标注用时，用实际操作证明是否省事。",
+      "library_page": 1
+    }
+  ]
+}
